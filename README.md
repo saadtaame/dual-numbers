@@ -21,6 +21,6 @@ DualNumber Func(double x) {
 }
 </pre>
   
-The above function operates on real numbers and returns a dual number. `DualNumber` has a `real` part and a `dual` part. The `real` part stores the value of the function at the given point and the `dual` part stores the first order derivative of the function at the given point. A call to `Func(3)` returns a dual number whose `real` part is equal ot `0.666667` and whose `dual` part is equal to `0.722222`.
+The above function operates on real numbers and returns a dual number. `DualNumber` has a `real` part and a `dual` part. The `real` part stores the value of the function at the given point and the `dual` part stores the value of the first order derivative of the function at the given point. A call to `Func(3)` returns a dual number whose `real` part is equal ot `0.666667` and whose `dual` part is equal to `0.722222`.
 
 We can compute the derivatives of complicated functions by using this technique. The functions are assumed to be differntiable at the input points.
