@@ -2,13 +2,13 @@
 A small library of functions implemneting dual arithmetic. The dual numbers make it easy to compute derivatives of functions and do so accurately (up to machine precision). Derivatives are not approximated; they are computed exactly. The only limitation is the precision of the machine on which the code is being executed.
 
 The supported functions are:
-* arithmetic operations `+`, `-`, `*`, `/`
-* `sin`
-* `cos`
-* `exp`
-* `log`
-* `power`
-* `abs`
+* arithmetic operations `Add`, `Sub`, `Mul`, `Div`
+* `Sin`
+* `Cos`
+* `Exp`
+* `Log`
+* `Power`
+* `Abs`
 
 # Example
 Say we wanted to compute the derivative of the function `(x + 1)*(x - 2)/(x + 3)` at `x = 3`. We convert this function into code by using the primitives listed above:
