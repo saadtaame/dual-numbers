@@ -11,7 +11,7 @@ The supported functions are:
 * `Abs`
 
 # Example
-Say we wanted to compute the derivative of the function `(x + 1)*(x - 2)/(x + 3)` at `x = 3`. We convert this function into code by using the primitives listed above:
+Say we wanted to compute the derivative of the function `f(x) = (x + 1)*(x - 2)/(x + 3)` at `x = 3`. We convert this function into code by using the primitives listed above:
 
 <pre>
 DualNumber Func(double x) {
