@@ -62,7 +62,7 @@ DualNumber Abs(DualNumber A) {
 }
 
 DualNumber Power(DualNumber A, double e) {
-	return MakeDual(power(A.real, e), A.dual * e * power(A.real, e - 1));
+	return MakeDual(pow(A.real, e), A.dual * e * pow(A.real, e - 1));
 }
 
 DualNumber Func(double x) {
